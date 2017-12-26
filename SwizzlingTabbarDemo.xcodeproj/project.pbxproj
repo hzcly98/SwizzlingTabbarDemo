@@ -13,6 +13,8 @@
 		0DC3E6FB1FF21F8200A95F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3E6FA1FF21F8200A95F5B /* Assets.xcassets */; };
 		0DC3E6FE1FF21F8200A95F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3E6FC1FF21F8200A95F5B /* LaunchScreen.storyboard */; };
 		0DC3E7011FF21F8200A95F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3E7001FF21F8200A95F5B /* main.m */; };
+		0DC3E7091FF220B400A95F5B /* UITabBar+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3E7071FF220B300A95F5B /* UITabBar+Swizzling.m */; };
+		0DC3E70C1FF220EA00A95F5B /* CusTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3E70B1FF220EA00A95F5B /* CusTabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0DC3E6FD1FF21F8200A95F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC3E6FF1FF21F8200A95F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC3E7001FF21F8200A95F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DC3E7071FF220B300A95F5B /* UITabBar+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Swizzling.m"; sourceTree = "<group>"; };
+		0DC3E7081FF220B400A95F5B /* UITabBar+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Swizzling.h"; sourceTree = "<group>"; };
+		0DC3E70A1FF220EA00A95F5B /* CusTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CusTabViewController.h; sourceTree = "<group>"; };
+		0DC3E70B1FF220EA00A95F5B /* CusTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CusTabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,12 @@
 		0DC3E6F01FF21F8200A95F5B /* SwizzlingTabbarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0DC3E7081FF220B400A95F5B /* UITabBar+Swizzling.h */,
+				0DC3E7071FF220B300A95F5B /* UITabBar+Swizzling.m */,
 				0DC3E6F11FF21F8200A95F5B /* AppDelegate.h */,
 				0DC3E6F21FF21F8200A95F5B /* AppDelegate.m */,
+				0DC3E70A1FF220EA00A95F5B /* CusTabViewController.h */,
+				0DC3E70B1FF220EA00A95F5B /* CusTabViewController.m */,
 				0DC3E6F41FF21F8200A95F5B /* ViewController.h */,
 				0DC3E6F51FF21F8200A95F5B /* ViewController.m */,
 				0DC3E6F71FF21F8200A95F5B /* Main.storyboard */,
@@ -143,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC3E6F61FF21F8200A95F5B /* ViewController.m in Sources */,
+				0DC3E7091FF220B400A95F5B /* UITabBar+Swizzling.m in Sources */,
 				0DC3E7011FF21F8200A95F5B /* main.m in Sources */,
 				0DC3E6F31FF21F8200A95F5B /* AppDelegate.m in Sources */,
+				0DC3E70C1FF220EA00A95F5B /* CusTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
